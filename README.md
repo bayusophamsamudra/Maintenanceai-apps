@@ -1,10 +1,11 @@
-# LOCAL AI APPS
+# Maintenanceai-apps
 
-Aplikasi desktop tanya-jawab dokumen bertenaga AI lokal. Indeks PDF, Word, Excel, PowerPoint, dan file teks — tanya dalam Bahasa Indonesia atau Inggris — dapat jawaban berdasarkan dokumen, lengkap dengan kutipan halaman yang bisa diklik.
+Aplikasi desktop Question and answer dokumen AI local. Indeks PDF, Word, Excel, PowerPoint, dan file teks — dapat answer berdasarkan dokumen, lengkap dengan halaman yang bisa diklik.
 
 Semua proses berjalan **100% offline**: model embedding dan LLM jalan di komputer sendiri, tidak ada data yang dikirim ke cloud.
 
 ---
+<img width="1296" height="902" alt="image" src="https://github.com/user-attachments/assets/7e76bc38-da99-460f-8695-eae845ae5a41" />
 
 ## Fitur Utama
 
