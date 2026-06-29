@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+data/
+models/
+*.egg-info/
+.DS_Store
+.idea/
+.vscode/
+ui_*.png
+
+# Claude Code local files — machine-specific, not for sharing.
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+.claude/projects/

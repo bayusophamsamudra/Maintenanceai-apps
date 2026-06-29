@@ -1,0 +1,17 @@
+# PyQt6 pinned: 6.11.x wheels fail to load (DLL "specified procedure could
+# not be found") on this machine's Anaconda-based Python 3.11. 6.7.x works.
+PyQt6==6.7.1
+PyQt6-Qt6==6.7.3
+pymupdf>=1.24
+sentence-transformers>=3.0
+ollama>=0.3
+numpy<2
+# Multi-format ingestion (Word / Excel / PowerPoint)
+python-docx>=1.1
+openpyxl>=3.1
+python-pptx>=1.0
+# NOTE: no chromadb — its native layers (1.5.x Rust client, chroma-hnswlib)
+# crash with access violations on this machine. Storage is sqlite (stdlib)
+# + numpy exact cosine search instead. See src/ingestion/indexer.py.
+# torch is NOT listed on purpose — install the CUDA build separately:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
